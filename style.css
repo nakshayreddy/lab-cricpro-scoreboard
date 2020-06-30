@@ -2,15 +2,75 @@
 
 
 /* change the font family and spacing as per your project font */
+
+body {
+	background: url("assets/background-image1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.image{
+	margin-left: 1000px;
+}	
+.table{
+	background-color: white;
+	margin-left: 80px;
+	padding: 20px 20px;
+	
+}
+
+#head1{
+	margin-left: 80px;
+	
+}
+h1{
+	font-size: 50px;
+	
+}
+p{
+	font-size: 30px;
+}
+header div table tr{
+	margin: 50px 50px 50px ;
+}
+
+
+	
+	
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top:100px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
+}
+header div a{
+	text-decoration: none;
+}
+#orangecolor{
+	background-color: orangered;
+	
+}
+.table {
+	border: 1px solid #D6D6D6;
+	border-collapse: collapse;
+	padding: 15px;
+	
+	
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+tr{ 
+	border: 1px solid #D6D6D6;
+	height: 37px;
+	color: black;
+	background-color: #E8E8E8;
+
 }
